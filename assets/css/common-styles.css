@@ -1,0 +1,194 @@
+/* Spinner */
+.wpst-loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #ffffff70;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
+.wpst-loading .spinner-grow {
+    margin-top: 25%;
+    width: 2.2rem;
+    height: 2.2rem;
+}
+
+/* Animation */
+.scale-preset {
+    transform: scale(0);
+    transition: all .3s;
+}
+  
+.animate-scale {
+    transform: scale(1);
+}
+
+/* Notification */
+.wpst-notif {
+    position: fixed !important;
+    top: 50px;
+    right: 10px;
+    z-index: 9999999999 !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	-webkit-animation-name: animatetop;
+	-webkit-animation-duration: 0.4s;
+	animation-name: animatetop;
+	animation-duration: 0.4s
+}
+.wpst-notif-dismiss {
+    position: absolute;
+    top: -5px;
+    right: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+body:not(.sendtrace-dashboard) .wpst-notif-dismiss {
+    top: 0;
+}
+.wpst-notif-dismiss:hover {
+    color: #fff;
+}
+
+.sendtrace .selectize-control {
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+}
+
+.sendtrace .file-upload-container {
+    position: relative;
+}
+.sendtrace .remove-file {
+    padding: 1px;
+    position: absolute;
+    line-height: 0;
+    font-weight: 500;
+    top: -2px;
+    cursor: pointer;
+}
+.sendtrace .remove-file:hover {
+    color: #c71919;
+    font-weight: 800;
+}
+
+/* Track Result */
+#track-result-status .circle-icon {
+    font-size: 14px;
+    color: #c6c6c6;
+}
+#track-result-status .line-icon {
+    border-bottom: 2px solid #c6c6c6;
+    width: 100%;
+    max-width: 150px;
+}
+#track-result-status .status-item {
+    position: relative;
+}
+#track-result-status .status-item .status-label {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    white-space: nowrap;
+    font-size: 16px;
+}
+#track-result-status .status-item .status-date {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    white-space: nowrap;
+    font-size: 12px;
+    bottom: -45px;
+}
+#track-result-status .status-item .status-label:not(.current),
+#track-result-status .status-item .status-date:not(.current){
+    color: #adadad;
+}
+#track-result .heading {
+    border-bottom: 1px solid var(--sendtrace-bg);
+    text-transform: uppercase;
+}
+#track-result #tracking-no {
+    border: 1px solid var(--sendtrace-bg);
+    color: var(--sendtrace-bg);
+    font-size: 34px;
+    font-weight: 600;
+    text-align: center;
+}
+.sendtrace .primary-fg,
+.sendtrace .primary-fg * {
+    color: var(--sendtrace-color);
+}
+.sendtrace .primary-bg {
+    background-color: var(--sendtrace-bg) !important;
+}
+
+/* From Main.min */
+.sendtrace .border-primary {
+    border-color: var(--sendtrace-bg) !important;
+}
+.sendtrace .color-primary {
+    color: var(--sendtrace-bg) !important;
+}
+.sendtrace .form-control.focus-primary:focus {
+    box-shadow: inset 0 0 0 1px var(--sendtrace-bg);
+    border-color: var(--sendtrace-bg);
+}
+.sendtrace .form-control.no-border-color:focus {
+    border-color: unset;
+}
+
+/* Boostrap Datepicker - fixer */
+.bootstrap-datetimepicker-widget {
+    width: auto !important;
+}
+
+/* Collapsed */
+.collapsed-item .fa-caret-up,
+.collapsed.collapsed-item .fa-caret-down{
+    display: unset;
+}
+.collapsed.collapsed-item .fa-caret-up,
+.collapsed-item .fa-caret-down {
+    display: none;
+}
+
+/* Media Queries */
+@media screen and (max-width: 600px) {
+    #track-result-status .line-icon {
+        display: none;
+    }
+    #track-result-status .status-item {
+        text-align: left !important;
+        margin-bottom: .5rem;
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+    #track-result-status .status-data {
+        flex-direction: column-reverse;
+    }
+    #track-result-status .status-item .status-label,
+    #track-result-status .status-item .status-date{
+        position: relative;
+        left: auto;
+        transform: unset;
+        white-space: unset;
+        bottom: auto;
+        top: auto;
+        margin-left: 5px;
+    }
+    #track-result-status .status-item .status-label:before {
+        content: "-";
+        margin-right: 4px;
+    }
+    #track-result .heading {
+        margin-top: 2rem !important;
+    }
+    /* Datatables */
+    #shipmentsDataTable_length,
+    #shipmentsDataTable_filter {
+        text-align: left;
+        margin-bottom: 6px;
+    }
+}

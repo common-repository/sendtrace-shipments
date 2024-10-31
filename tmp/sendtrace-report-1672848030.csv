@@ -1,0 +1,29 @@
+﻿"Tracking No.","Date Created",Status,"Assigned Client","Shipper Name","Phone Number",Email,Address,"Receiver Name","Phone Number",Email,Address,"Transportation Mode",Courier,Carrier,Origin,Destination,"Pickup Date","Pickup Time","Departure Time","Expected Delivery Date",Remarks,"File Upload",Pacakges
+SHIP7006796076TRACK,2023-01-02,"En Route",,"Test Jane",,,,"John Doe",,,,,,,,,,,,,,,"Qty=1 | Package Type=Bag | Weight=5 | Length=5 | Width=5 | Height=5 | Description=Test 5 | Value=50"
+SHIP5653653141,2022-12-29,Returned,,"Test Jane",,,Panama,"John Doe",,,Philippines,"Air Freight","Courier 1",DHL,PH,SH,2022-12-29,10:24,10:24,2022-12-29,"Test remarks",[]/,"Qty=1 | Package Type=Carton | Weight=5 | Length=5 | Width=5 | Height=5 | Description=5 | Value=5 && 
+Qty=2 | Package Type=Carton | Weight=6 | Length=6 | Width=6 | Height=6 | Description=6 | Value=6"
+SHIP21049726,2022-12-28,"Shipment Created",,"Jane Doe",,,,"John Doe",,,,"Air Freight","Courier 1",,,,,,,,,,"Qty=1 | Package Type=Carton | Weight=5 | Length=5 | Width=5 | Height=5 | Description=5 | Value=5"
+SHIP73023376,2022-12-26,"Shipment Created",,"Test Janess",,jane@gmail.com,,"Test Johnjohn",,johndoe@gmail.com,,,,,,,,,,,,,"Qty=1 | Package Type=Carton | Weight=5 | Length=5 | Width=5 | Height=5 | Description=Test Desc | Value=6"
+SHIP14982380,2022-12-26,"Shipment Created",,"Test Jane",,,,"John Doe",,,,,,,,,,,,,,,Qty=1
+SHIP97421354,2022-12-26,"Shipment Created",,"Test Jane",,,,"John Doe",,,,,,,,,,,,,,,"Qty=1 | Package Type=Carton | Weight=5 | Length=5 | Width=5 | Height=5 | Description=Test Desc | Value=50"
+SHIP55322114,2022-12-25,"En Route",,"Test Jane",,jane@gmail.com,,"John Doe",,john@gmail.com,,,,,,,,13:28,01:29,,,,"Qty=1 | Package Type=Pallet | Weight=5 | Length=5 | Width=5 | Height=5 | Description=Test Desc | Value=60"
+SHIP41032653,2022-12-25,"Shipment Created",,"Jane Jane",,,,"John John",,,,,,,,,,,,,,,"Qty=1 | Package Type=Carton | Weight=5 | Length=5 | Width=5 | Height=5 | Description=Test Desc | Value=50"
+SHIP26801847,2022-12-25,"Shipment Created",,"Test Jane",,,,"Test John",,,,,,,,,,,,,,,"Qty=1 | Package Type=Carton | Weight=5 | Length=5 | Width=5 | Height=5 | Description=Test Desc | Value=50"
+SHIP98000239,2022-12-25,"Shipment Created",,"Test Jane",,,,"Test John",,,,,,,,,,,,,,,"Qty=1 | Package Type=Carton | Weight=5 | Length=5 | Width=5 | Height=5 | Description=Test Desc | Value=60"
+SHIP42249618,2022-12-25,"Shipment Created",,Janejane,,,,Johnjohn,,,,,,,,,,,,,,,"Qty=1 | Package Type=Carton | Weight=5 | Length=5 | Width=5 | Height=5 | Description=Test Desc | Value=50"
+SHIP78480249,2022-12-25,"Shipment Created",,"Jane Jane",,,,Johnjohn,,,,,,,,,,,,,,,"Qty=1 | Package Type=Carton | Weight=5 | Length=5 | Width=5 | Height=5 | Description=Test Desc | Value=50"
+asdfasdfsadf,2022-12-25,"Shipment Created",,"Sender Flat",,,,"Receiver Flat",,,,,,,,,,,,,,,"Qty=1 | Package Type=Carton | Weight=5 | Length=5 | Width=5 | Height=5 | Description=Test Desc | Value=60"
+SHIP74844069,2022-12-25,"Shipment Created",,"Jane Jane",,,,"John John",,,,"Air Freight","Courier 1",DHL,PH,SH,2022-12-25,,,2022-12-25,"Test Remarks",,"Qty=1 | Package Type=Carton | Weight=5 | Length=5 | Width=5 | Height=5 | Description=Test Desc | Value=50"
+SHIP67492458,2022-12-25,"Shipment Created",,"Test Jane Rate",,,,"John Doe",,,,"International Freight","Courier 1",DHL,PH,SH,2022-12-25,14:45,02:45,2022-12-25,"Test Remarks",,"Qty=1 | Package Type=Pallet | Weight=5 | Length=5 | Width=5 | Height=5"
+SHIP16722467,2022-12-25,"Shipment Created",,"Test Jane",,,,"John Doe Rate",,,,,,,,,,,,,,,"Qty=1 | Package Type=Carton | Weight=5 | Length=5 | Width=5 | Height=5 | Description=Test Desc | Value=50"
+SHIP27541874,2022-12-25,"Shipment Created",,"Test Jane",,,,"John Doe Rate",,,,,,,,,,,,,,,"Qty=1 | Package Type=Carton | Weight=5 | Length=5 | Width=5 | Height=5 | Description=Test Desc | Value=50"
+SHIP16976360,2022-12-25,"Shipment Created",,"Test Jane",,,,"John Doe Rate",,,,,,,,,,,,,,,"Qty=1 | Package Type=Carton | Weight=5 | Length=5 | Width=5 | Height=5 | Description=Test Desc | Value=50"
+SHIP13012882,2022-12-25,"Shipment Created",,"Test Jane",,,,"John Doe Rate",,,,,,,,,,,,,,,"Qty=1 | Package Type=Carton | Weight=5 | Length=5 | Width=5 | Height=5 | Description=Test Desc | Value=50"
+SHIP46727192,2022-12-24,"Shipment Created",,"Test Jane Rete",,,,"John Doe Rate",,,,,,,,,,,,,,,Qty=1
+SHIP78913803,2022-12-24,"Shipment Created",,"Test Jane Rate",,,,"John Doe Rate",,,,,,,,,,,,,,,Qty=1
+SHIP84985899,2022-12-24,"Shipment Created",,"Jane jane",,,,"John john",,,,,,,,,,,,,,,
+SHIP72153291,2022-12-24,"Shipment Created",,"Jane Test",,,,"John Test",,,,,,,,,,,,,,,
+SHIP77520386,2022-12-24,"Shipment Created",,"New Jane",,,,"New John",,,,,,,,,,,,,,,
+SHIP20614085,2022-12-24,"In Transit",,"Jane Sender",,,,"John Receiver",,,,,,,,,,,,,,,
+SHIP18874549,2022-12-24,New,,"Test Jane",,,,"Test John",,,,"Air Freight","Courier 1",DHL,PH,SH,2022-12-24,19:55,19:56,2022-12-24,"Test Remarks",,"Qty=1 | Package Type=Carton | Weight=5 | Length=5 | Width=5 | Height=5 && 
+Qty=2"

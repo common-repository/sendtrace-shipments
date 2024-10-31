@@ -1,0 +1,28 @@
+.sendtrace .shipment-title-input {
+    font-size: 24px !important;
+}
+#wpst-setting-content .card .card-header {
+    background-color: transparent;
+}
+.sendtrace input[type=radio]:checked:before {
+    background-color: #fff;
+}
+.sendtrace .wpst-sub-content {
+    display: none;
+}
+.sendtrace .wpst-sub-content.active {
+    display: block;
+}
+.sendtrace .tab-container {
+    display: none;
+}
+.sendtrace .tab-container.active {
+    display: block;
+}
+.section .card-header {
+    background-color: var(--sendtrace-bg);
+    color: var(--sendtrace-color);
+}
+#shipment-list .form-check-input {
+    margin-top: -6px;
+}
